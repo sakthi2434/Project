@@ -38,25 +38,27 @@
     
     <div class="contact">
         <form class="hmm">
-            <h2>Contact Us</h2>
-        
-        <div class="detail">
-            <p>Name</p>
-            <input type="text" style="height: 50px; width: 1000px; padding: 10px;">
-        </div>
-        <div class="detail" >
-            <p>E-mail</p>
-            <input type="text" style="height: 50px; width: 1000px; padding: 10px;" >
-        </div>
-        <div class="detail" >
-            <p>Message</p>
-            <textarea style="height: 150px; width: 1000px; padding: 10px;"></textarea>
-        </div>
-        <button class="sub">Submit !</button>
-    </div>
-        
-    </form>
-    </div>
+          <h2>Contact Us</h2>
+      
+          <div class="detail">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+      
+          <div class="detail">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+      
+          <div class="detail">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+          </div>
+      
+          <button class="sub" type="submit">Submit!</button>
+        </form>
+      </div>
+      
   
     <!--Side Navbar-->
     <div class="openNavbar">
@@ -89,7 +91,7 @@
         <p style="margin-top: 10px; opacity: 40%;">© 2024 www.ASHTRO.com. All rights reserved.</p>
          </div>
         <!--My javascript-->
-        <script src="collection.js"></script>
+        <script src="contact.js"></script>
 </body>
 
 </html>
